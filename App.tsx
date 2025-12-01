@@ -267,15 +267,6 @@ const App: React.FC = () => {
 
         </div>
 
-        {/* Global Footer Disclaimer */}
-        <footer className="w-full mt-16 pt-8 pb-4 border-t border-gray-200">
-           <div className="max-w-4xl mx-auto text-center px-4">
-              <p className="text-xs text-gray-900 leading-relaxed font-medium">
-                Disclaimer: เนื้อหาเรียบเรียงโดยเทคโนโลยีปัญญาประดิษฐ์ (Generative AI) เพื่อวัตถุประสงค์ในการให้ข้อมูลเบื้องต้นเท่านั้น แม้ระบบจะพยายามอ้างอิงจากแหล่งข่าวที่น่าเชื่อถือ แต่ก็มีโอกาสมีข้อผิดพลาด ผู้ใช้งานโปรดใช้วิจารณญาณในการรับข้อมูล
-              </p>
-           </div>
-        </footer>
-
       </div>
     </div>
   );

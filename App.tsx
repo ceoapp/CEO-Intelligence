@@ -228,10 +228,17 @@ const App: React.FC = () => {
                   {/* Disclaimer Section (Article) */}
                   <div className="mt-16 pt-8 border-t border-gray-100">
                     <div className="flex items-start gap-3 max-w-4xl mx-auto">
-                        <AlertCircle className="w-5 h-5 text-gray-900 shrink-0 mt-0.5" />
-                        <p className="text-sm text-gray-900 font-normal italic leading-relaxed">
-                            Disclaimer: เนื้อหาเรียบเรียงโดยเทคโนโลยีปัญญาประดิษฐ์ (Generative AI) เพื่อวัตถุประสงค์ในการให้ข้อมูลเบื้องต้นเท่านั้น แม้ระบบจะพยายามอ้างอิงจากแหล่งข่าวที่น่าเชื่อถือ แต่ก็มีโอกาสมีข้อผิดพลาด ผู้ใช้งานโปรดใช้วิจารณญาณในการรับข้อมูล
-                        </p>
+                        <AlertCircle className="w-5 h-5 text-gray-900 shrink-0 mt-1" />
+                        <div className="text-sm text-gray-900 font-normal leading-relaxed space-y-3">
+                            <p>
+                                <strong>เนื้อหาทั้งหมดถูกสร้างและเรียบเรียงโดย Generative AI</strong> เป็นการวิเคราะห์และนำเสนอข้อมูลเชิงสังเคราะห์ ไม่ใช่ข้อเท็จจริง ที่ผ่านการตรวจสอบโดยมนุษย์
+                            </p>
+                            <div className="space-y-1">
+                                <p><strong>1. ความเสี่ยง (Hallucination):</strong> เทคโนโลยีนี้มีข้อจำกัดที่เรียกว่า "Hallucination" ซึ่งอาจนำไปสู่ข้อความที่ผิดพลาดหรือบิดเบือนไปจากความเป็นจริงได้</p>
+                                <p><strong>2. ขอบเขตความรับผิดชอบ:</strong> เนื้อหาทั้งหมด ไม่ใช่คำแนะนำทางการเงิน, การลงทุน, หรือกฎหมาย โปรดอย่าใช้ข้อมูลนี้เป็นพื้นฐานในการตัดสินใจทางธุรกิจที่สำคัญ</p>
+                                <p><strong>3. การปฏิเสธความรับผิดชอบ:</strong> แพลตฟอร์ม CEO Channels ไม่รับผิดชอบ ต่อความเสียหายหรือความสูญเสียใดๆ ที่เกิดขึ้นจากการอ้างอิงหรือการดำเนินการตามเนื้อหาที่สร้างโดย AI โปรดใช้วิจารณญาณสูงสุดในการรับข้อมูล</p>
+                            </div>
+                        </div>
                     </div>
                   </div>
                 </div>
